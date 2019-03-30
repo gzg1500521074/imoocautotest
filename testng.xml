@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="imoocCase">
+    <test verbose="2" preserve-order="true" name="test-login">
+        <classes>
+            <class name="com.imooc.testcase.LoginCase">
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--<listener class-name="com.imooc.common.RetryListener"/>-->
+        <!--<listener class-name="com.imooc.common.TestngListener"/>-->
+        <!--<listener class-name="com.imooc.common.ScreenshotListener"/>-->
+        <listener class-name="com.imooc.common.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
