@@ -4,12 +4,17 @@ import com.imooc.common.Base;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -22,9 +27,22 @@ public class SeleniumUtil {
     * 启动浏览器
     * */
     public void openBrowser(){
+
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless","--no-sandbox","--disable-gpu","--window-size=1290,1080");
+        DesiredCapabilities chromeCap = DesiredCapabilities.chrome();
+        chromeCap.setCapability("chromeOptions", chromeOptions);
+        URL remoteAddress = null;
+        try {
+            remoteAddress = new URL("http://localhost:9515");
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        driver = new RemoteWebDriver(remoteAddress, chromeCap);
+
         driver = new ChromeDriver();
         driver.get("http://www.imooc.com");
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
