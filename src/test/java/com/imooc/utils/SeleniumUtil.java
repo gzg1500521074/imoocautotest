@@ -28,7 +28,7 @@ public class SeleniumUtil {
     * */
     public void openBrowser(){
 
-        ChromeOptions chromeOptions = new ChromeOptions();
+        /*ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless","--no-sandbox","--disable-gpu","--window-size=1290,1080");
         DesiredCapabilities chromeCap = DesiredCapabilities.chrome();
         chromeCap.setCapability("chromeOptions", chromeOptions);
@@ -38,11 +38,11 @@ public class SeleniumUtil {
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-        driver = new RemoteWebDriver(remoteAddress, chromeCap);
+        driver = new RemoteWebDriver(remoteAddress, chromeCap);*/
 
         driver = new ChromeDriver();
         driver.get("http://www.imooc.com");
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
