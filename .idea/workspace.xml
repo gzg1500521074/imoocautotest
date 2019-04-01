@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24bbc16b-67a4-4760-980a-441450e30316" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/business/JueJinLoginBusiness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/business/LoginBusiness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/common/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/common/ExtentTestNGIReporterListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/common/ExtentTestNGIReporterListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/common/OverrideRetry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/common/RetryListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/common/ScreenshotListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/common/TestngListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/page/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/testcase/JueJinLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/testcase/LoginCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/utils/PropertiesDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/utils/SeleniumUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/common/Base.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="202">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/business/JueJinLoginBusiness.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -74,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="283">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -84,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/utils/SeleniumUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="35" column="72" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="72" />
+              <caret line="35" column="72" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/page/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -206,10 +222,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="68" />
-    <option name="width" value="1340" />
-    <option name="height" value="651" />
+    <option name="x" value="1274" />
+    <option name="y" value="-257" />
+    <option name="width" value="1920" />
+    <option name="height" value="988" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -229,16 +245,6 @@
               <item name="imoocautotest" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="imoocautotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imoocautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imoocautotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imoocautotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -250,7 +256,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554123649464" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554124781867" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -396,7 +402,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553528797153</updated>
       <workItem from="1553528798698" duration="11808000" />
-      <workItem from="1553689720323" duration="43834000" />
+      <workItem from="1553689720323" duration="44811000" />
     </task>
     <servers />
   </component>
@@ -433,7 +439,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55642000" />
+    <option name="totallyTimeSpent" value="56619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,10 +451,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="68" width="1340" height="651" extended-state="0" />
-    <editor active="true" />
+    <frame x="1274" y="-257" width="1920" height="988" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.24730355" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.17092651" />
       <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.19770521" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,7 +470,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4995587" weight="0.3291592" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995587" visible="true" weight="0.08050089" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4995587" visible="true" weight="0.32254463" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50132394" side_tool="true" weight="0.56171733" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.43337065" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -692,21 +697,21 @@
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/page/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/business/JueJinLoginBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -736,7 +741,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/common/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -746,7 +751,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/utils/SeleniumUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="35" column="72" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="72" />
+          <caret line="35" column="72" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -775,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="283">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
