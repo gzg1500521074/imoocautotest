@@ -12,7 +12,7 @@ import java.util.Properties;
 
 public class Base {
     protected SeleniumUtil seleniumUtil = null;  // 对于定义的对象最好赋值为null
-    private static Logger log = Logger.getLogger(Base.class);  // new Base().getClass() == Base.class,它们表示类类型
+   // private static Logger log = Logger.getLogger(Base.class);  // new Base().getClass() == Base.class,它们表示类类型
 
 
     @BeforeClass
@@ -41,16 +41,17 @@ public class Base {
         seleniumUtil.openBrowser();
     }
 
-
-    @AfterClass
-    public void closeBrowser(){
-        if(seleniumUtil != null){
-            seleniumUtil.quit();
-        }else {
-            log.error("浏览器driver没有获得对象,退出操作失败");
-            Assert.fail("浏览器driver没有获得对象,退出操作失败");
-        }
-    }
+//    @AfterClass
+//    public void closeBrowser(){
+//        if(seleniumUtil != null){
+//            seleniumUtil.quit();
+//        }else {
+//            log.error("浏览器driver没有获得对象,退出操作失败");
+//            log.info("fddddffd");
+//            log.debug("3333333");
+//            Assert.fail("浏览器driver没有获得对象,退出操作失败");
+//        }
+//    }
 
 
     // 获取driver
