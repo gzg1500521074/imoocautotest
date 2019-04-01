@@ -17,6 +17,8 @@ import org.testng.annotations.Test;
 
             // Assert.assertEquals(1,2);
         }
+
+
         @Test(dependsOnMethods = "jueJinLogin" )
         public void writeArticle(){
 
